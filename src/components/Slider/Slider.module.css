@@ -1,0 +1,31 @@
+.container {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px rgb(188, 188, 188);
+}
+
+.img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: rgb(0, 67, 202);
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button span {
+  color: white;
+  font-size: 16px;
+}
